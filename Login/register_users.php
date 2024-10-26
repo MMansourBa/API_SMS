@@ -1,9 +1,5 @@
 <?php
-    // Connexion à la base de données
-    $servername = "localhost";
-    $username_db = "root";
-    $password_db = "";
-    $dbname = "ONYX";
+    require_once '../config.php';
 
     // Créer la connexion
     $conn = new mysqli($servername, $username_db, $password_db, $dbname);
