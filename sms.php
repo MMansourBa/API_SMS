@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+// Vérifie si l'utilisateur est connecté
+if (!isset($_SESSION['token'])) {
+    // Redirige vers la page de connexion si l'utilisateur n'est pas connecté
+    header("Location: Login/login.php");
+    exit();
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

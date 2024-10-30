@@ -1,8 +1,9 @@
-# Activer le moteur de réécriture
 RewriteEngine On
 
 <Files "config.php">
     Require all denied
 </Files>
 
-# Fin du fichier .htaccess
+<Files ".env">
+    Require all denied
+</Files>
