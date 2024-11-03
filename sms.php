@@ -22,7 +22,7 @@
 
             <div class="phone">
                 <i class="fas fa-phone"></i>
-                <input type="text" placeholder="Numéro de téléphone" id="phone">
+                <input type="text" placeholder="Numéro de téléphone du destinataire" id="phone">
             </div>
             
             <div class="message-box">
