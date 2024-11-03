@@ -1,7 +1,11 @@
 <?php
     session_start(); // Démarrer la session
 
-    require_once '../config.php';
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+    require_once '../config/config.php';
+
 
     // Créer la connexion
     $conn = new mysqli($servername, $username_db, $password_db, $dbname);

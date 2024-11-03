@@ -1,9 +1,5 @@
 RewriteEngine On
 
-<Files "config.php">
-    Require all denied
-</Files>
-
-<Files ".env">
+<Files "config/database.php">
     Require all denied
 </Files>
